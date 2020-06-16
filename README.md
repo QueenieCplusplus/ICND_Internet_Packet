@@ -65,11 +65,11 @@ IP
 
 路由器選擇最佳路徑，判斷結果的條件值，包含：
 
-經過節點 hops
+  經過節點 hops
 
-全程時間 delay
+  全程時間 delay
 
-頻寬 bandwidth
+  頻寬 bandwidth
 
 # 網路層位址
 
