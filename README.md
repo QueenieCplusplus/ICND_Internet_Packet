@@ -59,15 +59,17 @@ IP
 
 功能：
 
-1. 劃分不同廣播/碰撞區域 Broadcast Area。
+1. 將 frame (L2) -> packet (L3) 時，用 dest add 的 IP 位址（L3） 將其封包送出。
 
-2. 能 filter (擋住) L2 廣播/多播的 frame。
+2. 劃分不同廣播/碰撞區域 Broadcast Area。
 
-3. 在 L2 , 路由器可供連接不同的 VLAN。
+3. 能 filter (擋住) L2 廣播/多播的 frame。
 
-4. 可設定 QoS 參數，管理網路流量。
+4. 在 L2 , 路由器可供連接不同的 VLAN。
 
-5. 可利用 Access List 控制進出的封包，提供安全過濾。
+5. 可設定 QoS 參數，管理網路流量。
+
+6. 可利用 Access List 控制進出的封包，提供安全過濾。
 
 # 路由表
 
