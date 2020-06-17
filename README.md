@@ -61,7 +61,7 @@ IP
 
 1. 將 frame (L2) -> packet (L3) 時，用 dest add 的 IP 位址（L3） 將其封包送出。
 
-2. 劃分不同廣播/碰撞區域 Broadcast Area。
+2. 劃分不同廣播/碰撞區域 Broadcast Area。（一路由器可劃分四個碰撞區/四個廣播區）
 
 3. 能 filter (擋住) L2 廣播/多播的 frame。
 
